@@ -4,8 +4,8 @@ import "./me.css";
 
 function MeImg(props) {
   return (
-      <div className='meimg'>
-        <Img url="/imgs/jp-2.png" alt="Juan Pablo Pietrantonio"></Img>
+      <div className='meimg' alt="Juan Pablo Pietrantonio">
+        <Img url="/imgs/jp-2.png" ></Img>
       </div>
 )}
 

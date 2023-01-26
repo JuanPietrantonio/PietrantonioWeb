@@ -5,7 +5,7 @@ import "./me.css";
 function MeImg(props) {
   return (
       <div className='meimg'>
-        <Img url="/imgs/jp-2.png"></Img>
+        <Img url="/imgs/jp-2.png" alt="Juan Pablo Pietrantonio"></Img>
       </div>
 )}
 

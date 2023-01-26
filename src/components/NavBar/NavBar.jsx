@@ -8,7 +8,7 @@ function NavBar() {
     <Navbar bg="dark" expand="lg" variant="dark" >
       <Container className='navbar-container'>
         <Navbar.Brand href="#Home" className='navbar-brand'>
-           <img src="./imgs/jp-logo.jpeg"></img> 
+           <img src="./imgs/jp-logo.jpeg" alt="JP"></img> 
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='navbar-collapse'>

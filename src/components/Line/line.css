@@ -1,0 +1,9 @@
+
+
+.line {
+    border-top: 4px solid var(--main-color);
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    max-width: 300px;
+}

@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+.body {
+  background-color: black;
+  color: rgb(213, 209, 209);
+}
+
+:root {
+  --main-color: rgb(66, 66, 254);
+}

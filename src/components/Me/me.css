@@ -1,0 +1,39 @@
+.me {
+    display: flex;
+    height: 40rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.meimg {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.meimg img {
+    height: 520px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.meinfo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.meinfo h2 {
+    position: bot;
+}
+
+.meinfo h1 {
+    font-size: 3rem;
+}
+
+.meinfo h2 {
+    font-size: 2rem;
+    color: var(--main-color)
+}

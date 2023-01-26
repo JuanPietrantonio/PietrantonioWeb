@@ -1,0 +1,11 @@
+.abaut {
+    display: flex;
+    height: 20rem;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.abaut p {
+    font-size: 1.4rem;
+}

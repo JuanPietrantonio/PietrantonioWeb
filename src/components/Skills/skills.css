@@ -1,0 +1,39 @@
+.skills {
+    justify-content: space-evenly;
+    padding-top: 30px;
+    height: 30rem;
+}
+
+.skillstitlediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.skillstitle {
+    font-size: 3rem;
+}
+
+.skillslist {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 18rem;
+    margin-right: 18rem;
+}
+
+.skillsitem {
+    min-width: 10rem;
+    padding: 10px;
+}
+
+.skillsitem img {
+    padding: 15px;
+    height: 8rem;
+}
+
+.cardtitle {
+    display: flex;
+    justify-content: center;
+}

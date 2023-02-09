@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Skills from "./components/Skills/Skills";
 import "./App.css";
 import Line from "./components/Line/Line";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Line></Line>
       <Skills></Skills>
       <Line></Line>
+      <Projects></Projects>
     </div>
   );
 }

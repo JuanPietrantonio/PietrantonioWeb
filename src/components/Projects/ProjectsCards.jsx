@@ -4,7 +4,7 @@ import "./projects.css"
 function ProjectsCards(props) {
   return (
     <div className='card-container'>
-        <h3>{props.title}</h3>
+        <h3 className='card-title'>{props.title}</h3>
         <div>
             <img src={props.url} ></img>
         </div>

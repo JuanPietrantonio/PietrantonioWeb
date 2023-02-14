@@ -8,10 +8,15 @@ function Projects() {
     let buttonDescription ="Ver mas";
 
   return (
-    <div className='container-projects'>
-        <ProjectTitle title="Projects"></ProjectTitle>
-        <ProjectsCards title="Project1" url="/imgs/proyecto1.jpg" description="Inspirado en las cabezas con iconos ilustres de la epoca de antaño" buttonDescription={buttonDescription}></ProjectsCards>
-    </div>
+    <>
+      <ProjectTitle title="Projects"></ProjectTitle>
+      <div className='container-projects'>
+          <ProjectsCards title="Project1" url="/imgs/proyecto1.jpg" description="Inspirado en las cabezas con iconos ilustres de la epoca de antaño" buttonDescription={buttonDescription}></ProjectsCards>
+          <ProjectsCards title="Project1" url="/imgs/proyecto1.jpg" description="Inspirado en las cabezas con iconos ilustres de la epoca de antaño" buttonDescription={buttonDescription}></ProjectsCards>
+          <ProjectsCards title="Project1" url="/imgs/proyecto1.jpg" description="Inspirado en las cabezas con iconos ilustres de la epoca de antaño" buttonDescription={buttonDescription}></ProjectsCards>
+          <ProjectsCards title="Project1" url="/imgs/proyecto1.jpg" description="Inspirado en las cabezas con iconos ilustres de la epoca de antaño" buttonDescription={buttonDescription}></ProjectsCards>
+      </div>
+    </>
   )
 }
 
